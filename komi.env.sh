@@ -42,8 +42,6 @@ sudo $pmInstall w3m-img
 sudo $pmInstall imagemagick
 sudo $pmInstall xdotool
 
-sudo $pmInstall kitty
-
 #Install .BASHRC
 curl -o- https://raw.githubusercontent.com/K0mi-rose/cdn-komi/main/.bashrc > ~/.bashrc
 mkdir ~/scripts && cd ~/scripts \
