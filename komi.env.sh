@@ -35,8 +35,20 @@ sudo $pmInstall gcc
 sudo $pmInstall make
 sudo $pmInstall build-essential
 
+#Ricing
+sudo $pmInstall neofetch
+sudo $pmInstall w3m
+sudo $pmInstall w3m-img
+sudo $pmInstall imagemagick
+sudo $pmInstall xdotool
+
+sudo $pmInstall kitty
+
 #Install .BASHRC
 curl -o- https://raw.githubusercontent.com/K0mi-rose/cdn-komi/main/.bashrc > ~/.bashrc
+mkdir ~/scripts && cd ~/scripts \
+&& wget https://raw.githubusercontent.com/K0mi-rose/cdn-komi/main/scripts/cpuTemperatureWatch \
+&& wget https://raw.githubusercontent.com/K0mi-rose/cdn-komi/main/scripts/processPowerUsage
 
 source ~/.bashrc
 
