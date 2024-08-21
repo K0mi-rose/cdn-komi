@@ -51,3 +51,7 @@ mkdir ~/scripts && cd ~/scripts \
 source ~/.bashrc
 
 echo "Don't forget to install your IDE and to source..."
+echo "RUN:"
+echo "sudo nvm install node"
+echo "sudo nvm use node"
+echo "sudo npm install -g npm@latest"
